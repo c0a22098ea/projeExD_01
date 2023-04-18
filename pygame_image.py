@@ -12,6 +12,8 @@ def main():
     tmr = 0
     
 
+    
+
     while True:
         for event in pg.event.get():
             if event.type == pg.QUIT: return
