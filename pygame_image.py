@@ -12,7 +12,7 @@ def main():
     tmr = 0
     
 
-    
+    a = 0
 
     while True:
         for event in pg.event.get():
