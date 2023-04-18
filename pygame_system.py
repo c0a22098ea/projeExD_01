@@ -16,6 +16,7 @@ def main():
         txt = fonto.render(str(tmr), True, (255, 255, 255))
         screen.fill((0, 0, 0))
         screen.blit(txt, [300, 200])
+        
         pg.display.update()
         clock.tick(10)
 
